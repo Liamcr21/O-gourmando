@@ -1,0 +1,259 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial;
+}
+
+.header{
+	background-color: #e8481b;
+	display: flex;
+	justify-content: space-between;
+
+	padding: 10px 20px;
+}
+
+.logoasso img{
+	height: 100px;
+}
+
+.divgauche{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.divgauche .imgmenu{
+height: 50px;
+margin: 20px;
+}
+
+
+.header .socialLinks{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+}
+
+.header .socialLinks li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.header .socialLinks li a{
+	min-width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header .socialLinks li a:hover{
+	background: #fcc918;
+}
+
+.header .socialLinks li img{
+	width: 25px;
+}
+
+.menu{
+	position: relative;
+}
+
+.menu .menuderoulant{
+	position: absolute;
+	left: -20px;
+	top: 103%;
+	padding: 40px;
+	background-color: #fcc918 ;
+	width: 100vw;
+	max-width: 300px;
+	display: none;
+}
+
+.menu .menuderoulant ul{
+	margin: 0;
+	padding: 0;
+}
+
+.menu .menuderoulant ul li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu .menuderoulant ul li a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 0;
+	display: inline-block;
+}
+
+.menu .menuderoulant hr{
+	border: 0px;
+	background: white;
+	border: 2px white solid;
+    border-radius: 2px;
+}
+
+.menu #menucheckbox:checked ~ .menuderoulant{
+	display: block;
+}
+
+.menu #menucheckbox{
+	display: none;
+}
+
+.Presentation{
+	text-align: center;
+}
+
+.groupe{
+    display: flex;
+    background-image: url(image/groupe.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 65vh;
+    flex-direction: column;
+    color: white;
+}
+.footer{
+	background-color: #e8481b;
+	display: flex;
+	height: 200px;
+	width: 100%;
+}
+footer p{
+	display: flex;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+	padding: 10px 20px;
+	font-family: Arial;
+	
+}
+footer a{
+    color: #fff;
+	
+}
+
+.footerdivdroite{
+	margin-left: 1100px;
+	margin-top: 60px;	
+}
+
+.footerdivg{
+	display: flex;
+	text-align: right;	
+	border:#fff;
+	margin-top: -90px;
+	margin-left: 40px;
+}
+
+
+.footerdivcenter {
+	display: flex;
+	text-align: center;
+	margin: -30px;
+}
+
+.footerdivcenter center{
+	display: flex;
+	text-align: center;
+	color: white;
+	margin-top: -60px;
+}
+
+.footer .socialLinksfooter{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+}
+.footer .socialLinksfooter li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.footer .socialLinksfooter li a{
+	min-width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	right: 100px;
+	
+}
+.footer .socialLinksfooter li a:hover{
+	background: #fcc918;
+}
+
+.footer.socialLinksfooter li img{
+	width: 20px;
+}
+
+.article1{
+	padding-top: 20px;
+}
+.article1 .imgart1{
+	background-image: url(image/qvgart1.png);
+	height: 500px;
+	width: 500px;
+	float: left;
+	margin-left: 150px;
+	margin-top: -50px;
+}
+
+.article1 h1{
+	margin-left: 180px;
+	font-size: 50px;
+}
+
+.article1 p{
+	height: 400px;
+	width: 400px;
+	margin-left: 800px;
+	margin-top: 150px;
+    color: black;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.article2{
+	padding-top: 20px;
+}
+.article2 .imgart2{
+	background-image: url(image/covid.jpg);
+	height: 500px;
+	width: 500px;
+	float: right;
+	margin-right: 170px;
+}
+
+.article2 h1{
+	margin-left: 180px;
+	font-size: 50px;
+}
+
+.article2 p{
+	height: 400px;
+	width: 400px;
+	margin-left: 250px;
+	margin-top: 150px;
+    color: black;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+
+.mw1140{
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+}
